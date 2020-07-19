@@ -1,6 +1,2 @@
-using aI_Calculations
-using Test
-
-@testset "aI_Calculations.jl" begin
-    # Write your tests here.
-end
+using SafeTestsets
+@safetestset "aI Tests" begin include("aI_tests.jl") end

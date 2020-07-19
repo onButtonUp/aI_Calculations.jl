@@ -1,5 +1,7 @@
 module aI_Calculations
 
-# Write your package code here.
+include("scratchPadFile.jl")
+
+export RMS, Decibels
 
 end
